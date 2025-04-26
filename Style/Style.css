@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.logo{
+    max-width: 600px;
+    margin-bottom: 24px;
+
+}
+.container-input{
+    max-width: 450px;
+    margin: 14px 0;
+    
+
+}
+.container-input span{
+    color: whitesmoke;
+    font-size: 23px;
+    
+    
+    
+
+}
+.slider{
+    appearance: none;
+    width: 100%;
+    border-radius: 10px;
+    cursor:pointer;
+    margin-top: 10px;
+    
+}
+.BotãoDeAção{
+    height: 25px;
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+     color: rgb(27, 61, 124);
+    font-size: 16px;
+    
+}
+.container-password {
+    max-width: 450px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.password{
+    height: 60px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.6s;
+    color: rgb(38, 73, 139);  
+    
+}
+.password:hover{
+    transform: scale(1.05);
+}
+.tooltip{
+    text-align: center;
+    margin: 15px;
+    color: white;
+    font-size: 17px;
+    visibility: hidden;
+    transition:  0.6s all ease-in-out;
+
+}
+.hide{
+    display: none;
+    
+}
+.container-password:hover .tooltip{
+    visibility: visible ;
+    
+}
